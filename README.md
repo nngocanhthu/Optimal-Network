@@ -73,4 +73,7 @@ Constraints:
 
 ## 5. Outcome
 
-The graph below illustrates the distribution of fulfillment centers, where the bubble size corresponds to the customer demand that each facility is designed to accommodate.
+The graph below illustrates the distribution of fulfillment centers.
+
+![image](https://github.com/nngocanhthu/Optimal-Fulfillment-Centers/assets/158172853/5a9b22df-0f3d-464f-af7a-cd8fcde77659)
+
