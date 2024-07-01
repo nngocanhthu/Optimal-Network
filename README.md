@@ -51,25 +51,25 @@ Considering the long-term effect, I do not include the fixed cost of opening the
 
 Objective function:
 
-$v^* = \sum_{i=1}^{n} y_i\cdot f_i + \sum_{i=1}^{n} \sum_{j=1}^{m} d_j\cdot c_{ij}\cdot x_{ij}$
+![image](https://github.com/nngocanhthu/Optimal-Fulfillment-Centers/assets/158172853/7498efad-c41d-4a8f-9543-9fe8cc72f3dd)
 
 Constraints:
 
 (1) Customer demand served by a certain facility does not exceed its capacity
 
-$\sum_{j=1}^{m}d_j\cdot x_{ij} \leq b_i\cdot y_i \text{ } \forall i \in I$
+![image](https://github.com/nngocanhthu/Optimal-Fulfillment-Centers/assets/158172853/071d03f1-f4a9-4f50-8633-4e4bd6b6d5c0)
 
 (2) A customer is served by a single source
 
-$\sum_{i=1}^{n}x_{ij} = 1 \text{ } \forall j \in J$
+![image](https://github.com/nngocanhthu/Optimal-Fulfillment-Centers/assets/158172853/8fb42785-14ee-4717-9808-4e83253fe07c)
 
 (3) Only 10 fulfillment centers will be opened at max
 
-$\sum_{i=1}^{n} y_i \leq 10$
+![image](https://github.com/nngocanhthu/Optimal-Fulfillment-Centers/assets/158172853/5cdfc33d-7c21-4685-bc0e-c95b0c19d0a6)
 
 (4) Each subregion has at least 1 fulfillment center
 
-$\sum_{i \in SR_t} y_i \geq 1 \text{ } \forall t \in T$
+![image](https://github.com/nngocanhthu/Optimal-Fulfillment-Centers/assets/158172853/9ab19c6c-0f8e-4a32-ad14-30e833ee7e5b)
 
 ## 5. Outcome
 
