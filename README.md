@@ -1,4 +1,4 @@
-# Optimal Fulfillment Centers Network
+# Optimal Network
 
 ## 1. Objective
 This project aims to optimize the fulfillment center network using Linear Programming (LP) and the Facility Location Problem Model, focusing on minimizing operational costs and shipping expenses while meeting customer demand.
